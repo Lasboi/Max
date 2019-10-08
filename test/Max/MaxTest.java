@@ -15,6 +15,7 @@ public class MaxTest extends TestCase {
      */
 
     public void testMaxOf4And6Equals6() {
+
         // Input
         int a = 4;
         int b = 6;
