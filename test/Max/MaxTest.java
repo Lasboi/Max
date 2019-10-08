@@ -26,6 +26,17 @@ public class MaxTest extends TestCase {
         assertEquals(6, result);
     }
 
+    public void testMaxOf4And7Equals7() {
 
+        // Input
+        int a = 4;
+        int b = 7;
+
+        //Execution
+        int result = Calculator.max(a, b);
+
+        // Asserts
+        assertEquals(7, result);
+    }
 
 }
